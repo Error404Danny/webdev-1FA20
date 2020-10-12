@@ -1,0 +1,47 @@
+.loading_container{
+    color: black;
+    width: 50%;
+    height: 50%;
+    transform: translate( 50%, 50% );
+    background-color: white;
+}
+h1{
+    transform: translate(35%, 50%);
+}
+.loading_box{
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    height: 50px;
+}
+.loading_bar{
+    margin: 10px 10px 0px 10px ;
+    width: 95%;
+    height: 75%;
+    animation-name: move_n_finish;
+    animation-duration: 99s;
+    animation-fill-mode: forwards;
+}
+@keyframes move_n_finish{
+    1%{
+        background-color:rebeccapurple;
+        width: 0%;
+    }
+    25%{
+        background-color: sandybrown;
+
+    }
+    50%{
+        background-color: aqua;
+        width: 50%;
+    }
+    75%{
+        background-color: chocolate;
+    }
+    100%{
+        background-color:black;
+
+       
+    }
+
+}
