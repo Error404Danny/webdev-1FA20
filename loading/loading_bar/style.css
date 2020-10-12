@@ -21,6 +21,7 @@ h1{
     animation-name: move_n_finish;
     animation-duration: 99s;
     animation-fill-mode: forwards;
+    animation-iteration-count: 1;
 }
 @keyframes move_n_finish{
     1%{
