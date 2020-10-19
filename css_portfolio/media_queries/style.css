@@ -1,0 +1,19 @@
+h1{
+    color:orange;
+}
+body{
+    background-color: hotpink;
+}
+p{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media(max-width: 600px){
+    p{
+        background-color: chocolate;
+    }
+    body{
+        background-color:gold;
+    }
+}

@@ -1,0 +1,24 @@
+.container{
+    background-color: lightgrey;
+
+}
+p{
+    color: black;
+}
+p::first-letter{
+    color: lime;
+}
+h4{
+    color: blue;
+}
+h4::before{
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/220px-SNice.svg.png);
+}
+h5{
+    font-size: 50px;
+    color:red;
+    padding-right: 10px;
+}
+h5::after{
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/220px-SNice.svg.png);
+}

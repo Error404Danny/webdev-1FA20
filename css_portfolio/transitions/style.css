@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(33, 137, 172);
+}
+.activator{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 4px solid black;
+    margin: 30px;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    background: red;
+    position: absolute;
+    transition: left 3s;
+    left: 0;
+}
+.activator:hover .box {
+    left: 900px;
+}
