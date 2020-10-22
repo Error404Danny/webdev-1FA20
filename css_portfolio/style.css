@@ -1,24 +1,23 @@
 .container{
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-content: space-between;
     padding: 10px;
 
 }
 h1{
     color: purple;
 }
-
-a{
-    width: 40%;
-    height: 10%;
-    border: 3px solid black;
-   
-}
 .images{
     padding-left: 3px;
     padding-top: 3px;
-    width: 50%;
-    height: 50%;
+    width: 20vmin;
+    height: 20vmin;
     background-position: center;
-  
+    position: relative;
+}
+.allcontainer{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
 }
