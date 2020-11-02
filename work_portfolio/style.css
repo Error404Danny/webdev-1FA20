@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-direction: column;
+    background-image: url(images/ShinyCharizard-redone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+main{
+    color: blue;
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: steelblue;
+    justify-content: space-between;
+    align-content: flex-start;
+}

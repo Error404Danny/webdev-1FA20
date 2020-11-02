@@ -1,0 +1,129 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.E5AL3p0wVA855LRCoW7sWgHaFj?w=242&h=181&c=7&o=5&dpr=1.15&pid=1.7");
+}
+.movie-box{
+    display: inline-block;
+    width: 35vw;
+    height: 50vh;
+    margin: 10vh 0;
+}
+.Friday{
+    position: absolute;
+    background: black;
+    color: white;
+    width: 35vw;
+    height: 50vh;
+    padding: 10px, 0;
+}
+.Friday p{
+    font-size: 20px;
+}
+.Friday img{
+    padding-left: 30%;
+    padding-bottom: 0%;    transform: translate(10%,0%);
+}
+.Halloween{
+    position: absolute;
+    background: black;
+    color: white;
+    width: 40vw;
+    height: 50vh;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.Halloween p{
+    font-size: 17px;
+    padding-right: 5px; 
+}
+.Halloween img{
+    margin-right: 10px; 
+    padding-left: 50%;
+    padding-bottom: 0%;    transform: translate(-30% , 0%);
+    position: sticky;
+    right: 10px;
+}
+.Elm{
+    position: absolute;
+    background: black;
+    color: white;
+    width: 35vw;
+    height: 60vh;
+    padding: 10px, 0;
+}
+.Elm p{
+    font-size: 20px;
+}
+.Elm img{
+    margin-right: 10px; 
+    padding-left: 50%;
+    padding-top:-20px;
+    padding-bottom: 0%;         transform: translate(-30% , 0%);
+    position: sticky;
+    right: 10px;
+}
+.Chucky{
+    position: absolute;
+    background: black;
+    color: white;
+    width: 40vw;
+    height: 60vh;
+    margin-left: 20px;
+    padding-left: 10px; 
+}
+.Chucky p{
+    font-size: 20px;
+}
+.Chucky img{
+    margin-right: 10px; 
+    padding-left: 50%;
+    padding-bottom: 0%;         transform: translate(-30% , 0%);
+    position: sticky;
+    right: 10px;
+}
+
+.Aliens{
+    position: absolute;
+    background: black;
+    color: white;
+    width: 40vw;
+    height: 65vh;
+    margin-left: 5px;
+    padding-left: 10px;   
+}
+.Aliens p {
+    font-size: 20px;
+}
+.Aliens img{
+    display: inline-block;
+    width: 50%;
+    margin-right: 10px; 
+    padding-left: 50%;
+    padding-bottom: 0%;         transform: translate(-30% , 0%);
+    position: sticky;
+    right: 10px;
+
+}
+.Suprise{
+    background: black;
+    color: rgb(4, 36, 4);
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-top: 40px; 
+}
+.SpookySuprise{ 
+    background: black;
+    color: rgb(4, 36, 4);
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-top: 40px; 
+}
+.Home{
+    background-color: white;
+    width: 90px;
+    height: 60px;
+}
