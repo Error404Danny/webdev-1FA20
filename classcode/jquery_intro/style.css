@@ -1,0 +1,11 @@
+.box{
+    width:150px;
+    height: 150px;
+    background: lightblue;
+    margin: 20px;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background: lightpink;
+}
